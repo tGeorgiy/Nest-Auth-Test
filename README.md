@@ -38,7 +38,7 @@ Responce:
     "userName": "qwerty@qwerty.com"
   },
   "message": "User successfully registered"
-  }
+}
 ```
 
 ### Login
@@ -74,8 +74,8 @@ Responce:
 }
 ```
 ### Logout
-```bash
 POST `http://localhost:3000/logout`
+```bash
 Responce:
 {
   "message": "The user session has ended"
