@@ -7,6 +7,9 @@ $ yarn install
 ## Running the app
 
 ```bash
+# docker
+$ docker compose up
+
 # development
 $ yarn start
 
@@ -19,7 +22,7 @@ $ yarn start:prod
 
 ## Routes
 
-# Register
+### Register
 
 POST `http://localhost:3000/register`
 Body:
@@ -36,7 +39,7 @@ Responce:
 "message": "User successfully registered"
 }
 
-# Login
+### Login
 
 POST `http://localhost:3000/login`
 Body:
@@ -54,7 +57,7 @@ Responce:
 "message": "User logged in"
 }
 
-# Password change
+### Password change
 
 POST `http://localhost:3000/user/change-password`
 Body:
@@ -66,7 +69,7 @@ Responce:
 "message": "Password changed successfully."
 }
 
-# Logout
+### Logout
 
 POST `http://localhost:3000/logout`
 Responce:
